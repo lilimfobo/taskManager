@@ -27,21 +27,25 @@
                 <div class="options">
                     <label>
                         <input type="radio" name="option" id="firstOption" value="Work">
+                        <span class="bubble work"></span>
                         <div>Work</div>
                     </label>
 
                     <label>
                         <input type="radio" name="option" id="secondOption" value="Personal">
+                        <span class="bubble personal"></span>
                         <div>Personal</div>
                     </label>
 
                     <label>
                         <input type="radio" name="option" id="thirdOption" value="Relationship">
+                        <span class="bubble relationship"></span>
                         <div>Relationship</div>
                     </label>
 
                     <label>
                         <input type="radio" name="option" id="fourthOption" value="Micellaneous">
+                        <span class="bubble micellaneous"></span>
                         <div>Micellaneous</div>
                     </label>
 
@@ -56,7 +60,33 @@
                 <div class="taskItem">
                     <label>
                         <input type="checkbox">
+                        <span class="bubble work"></span>
                     </label>
+
+                    <div class="taskContent">
+                        <input type="text" value="Check emails" readonly>
+                    </div>
+
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+
+                <div class="taskItem">
+                    <label>
+                        <input type="checkbox">
+                        <span class="bubble relationship"></span>
+                    </label>
+
+                    <div class="taskContent">
+                        <input type="text" value="Call husband" readonly>
+                    </div>
+
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
                 </div>
             </div>
 
