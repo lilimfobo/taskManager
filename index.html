@@ -12,18 +12,42 @@
         <h1>Task Management System</h1>
     </header>
     <main>
-        <div id="introduction">
+        <section id="introduction">
             <h2>
                 Hello, <input type="text" id="yourName" placehodler="Your Name">
             </h2>
-        </div>
-        <div id="createTask">
+        </section>
+        <section id="createTask">
             <h3>Task List</h3>
             <form id="newTaskForm">
                 <h4>Tasks I need to complete:</h4>
                 <input type="text" placeholder="Check emails" name="content" id="content">
+
+                <h4>Category</h4>
+                <div class="options">
+                    <label>
+                        <input type="radio" name="option" id="firstOption" value="Work">
+                        <div>Work</div>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="option" id="secondOption" value="Personal">
+                        <div>Personal</div>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="option" id="thirdOption" value="Relationship">
+                        <div>Relationship</div>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="option" id="fourthOption" value="Micellaneous">
+                        <div>Micellaneous</div>
+                    </label>
+
+                </div>
             </form>
-        </div>
+        </section>
     </main>
     <script scr="js/javascript.js"></script>
 </body>
