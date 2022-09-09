@@ -20,13 +20,13 @@ window.addEventListener('load', () => {
 	newForm.addEventListener('submit', e => {
 		e.preventDefault();
 
-        const tasks = {
+        const task = {
 			content: e.target.elements.content.value,
 			category: e.target.elements.category.value,
 			done: false,
 			createdAt: new Date().getTime()
 		}
 
-		todos.push(tasks);
+		todos.push(task);
 
 		localStorage.setItem('todos', JSON.stringify(todos));
