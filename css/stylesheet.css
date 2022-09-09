@@ -17,3 +17,13 @@ section {
 	padding-right: 2rem;
 }
 
+#introduction, #welcome {
+    display: flex;
+    color:#511845;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#introduction input, #welcome input {
+    
+}
