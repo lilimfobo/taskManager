@@ -45,14 +45,23 @@ section {
 
 h3 {
     color:#511845;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 400;
     margin-bottom: 1rem;
 }
 
 h4 {
     color: #D15A7C;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
     font-weight: bolder;
     margin-bottom: 1rem;
+}
+
+#createTask input[type="text"] {
+    display: block;
+    width: 100%;
+    font-size: 1.125rem;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.75rem;
 }
