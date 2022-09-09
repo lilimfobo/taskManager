@@ -117,15 +117,13 @@ input[type="checkbox"] {
 	box-shadow: 0px 0px 6px rgba(58, 238, 223, 0.8);
 }
 
-}
-
 .bubble::after {
 	content: '';
 	display: block;
 	opacity: 0;
 	width: 0px;
 	height: 0px;
-	background-color: #C70039);
+	background-color: #C70039;
 	box-shadow: var0px 0px 6px rgba(238, 58, 106, 0.8);
 	border-radius: 999px;
 	transition: 0.2s ease-in-out;
