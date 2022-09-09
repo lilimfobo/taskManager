@@ -108,23 +108,15 @@ input[type="checkbox"] {
 	width: 20px;
 	height: 20px;
 	border-radius: 999px;
-	border: 2px solid var(--business);
+	border: 2px solid #C70039;
 	box-shadow: var(--business-glow);
 }
 
 .bubble.personal {
-	border-color: var(--personal);
+	border-color: #C70039;
 	box-shadow: var(--personal-glow);
 }
 
-.bubble.relationship {
-	border-color: var(--personal);
-	box-shadow: var(--personal-glow);
-}
-
-.bubble.micellaneous {
-	border-color: var(--personal);
-	box-shadow: var(--personal-glow);
 }
 
 .bubble::after {
@@ -140,16 +132,6 @@ input[type="checkbox"] {
 }
 
 .bubble.personal::after {
-	background-color: var(--personal);
-	box-shadow: var(--personal-glow);
-}
-
-.bubble.relationship::after {
-	background-color: var(--personal);
-	box-shadow: var(--personal-glow);
-}
-
-.bubble.micellaneous::after {
 	background-color: var(--personal);
 	box-shadow: var(--personal-glow);
 }
