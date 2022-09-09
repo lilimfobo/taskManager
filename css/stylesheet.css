@@ -75,3 +75,10 @@ h4 {
     grid-gap: 1.5rem;
     margin-bottom: 1.5rem;
 }
+
+#createTask #options label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
