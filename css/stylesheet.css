@@ -52,7 +52,7 @@ h3 {
 
 h4 {
     color: #D15A7C;
-    font-size: 1.45rem;
+    font-size: 1.2rem;
     font-weight: bolder;
     margin-bottom: 1rem;
 }
@@ -83,4 +83,15 @@ h4 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+
+input:not([type="radio"]):not([type="checkbox"]), button {
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: initial;
 }
