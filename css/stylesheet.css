@@ -140,3 +140,9 @@ input:checked ~ .bubble::after {
 	height: 10px;
 	opacity: 1;
 }
+
+#taskList label div, #options label div {
+	color: #511845;
+	font-size: 1.25rem;
+	margin-top: 1rem;
+}
