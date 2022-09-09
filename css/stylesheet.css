@@ -39,3 +39,10 @@ h3 {
     font-weight: 400;
     margin-bottom: 1rem;
 }
+
+h4 {
+    color: #D15A7C;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
