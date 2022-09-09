@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-	todos = JSON.parse(localStorage.getItem('todos')) || [];
+	tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 	const enterName = document.querySelector('#yourName');
 	const newForm = document.querySelector('#createTask');
 
@@ -27,6 +27,6 @@ window.addEventListener('load', () => {
 			createdAt: new Date().getTime()
 		}
 
-		todos.push(task);
+		tasks.push(task);
 
-		localStorage.setItem('todos', JSON.stringify(todos));
+		localStorage.setItem('tasks', JSON.stringify(tasks));
