@@ -127,10 +127,16 @@ input[type="checkbox"] {
 	background-color: #C70039;
 	box-shadow: 0px 0px 6px rgba(238, 58, 106, 0.8);
 	border-radius: 999px;
-	transition: 0.2s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 
 .bubble.personal::after {
 	background-color: #36846B;
 	box-shadow: 0px 0px 6px rgba(58, 238, 223, 0.8);
+}
+
+input:checked ~ .bubble::after {
+	width: 10px;
+	height: 10px;
+	opacity: 1;
 }
