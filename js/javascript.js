@@ -54,3 +54,16 @@ function DisplayTasks () {
 		const actions = document.createElement('div');
 		const edit = document.createElement('button');
 		const deleteButton = document.createElement('button');
+
+        input.type = 'checkbox';
+		input.checked = task.done;
+		span.classList.add('bubble');
+		if (todo.category == 'personal') {
+			span.classList.add('personal');
+		} else {
+			span.classList.add('work');
+		}
+		content.classList.add('task-content');
+		actions.classList.add('actions');
+		edit.classList.add('edit');
+		deleteButton.classList.add('delete');
