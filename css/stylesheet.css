@@ -88,7 +88,7 @@ h4 {
     cursor: pointer;
 }
 
-input:not([type="radio"]):not([type="checkbox"]), button {
+button, input[type="text"] {
 	appearance: none;
 	border: none;
 	outline: none;
