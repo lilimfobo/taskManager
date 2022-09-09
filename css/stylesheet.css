@@ -95,3 +95,8 @@ button, input[type="text"] {
 	background: none;
 	cursor: initial;
 }
+
+input[type="radio"],
+input[type="checkbox"] {
+	display: none;
+}
