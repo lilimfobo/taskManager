@@ -42,3 +42,15 @@ window.addEventListener('load', () => {
 function DisplayTasks () {
 	const taskList = document.querySelector('#taskList');
 	taskList.innerHTML = "";
+
+    tasks.forEach(task => {
+		const taskItem = document.createElement('div');
+		taskItem.classList.add('taskitem');
+
+		const label = document.createElement('label');
+		const input = document.createElement('input');
+		const span = document.createElement('span');
+		const content = document.createElement('div');
+		const actions = document.createElement('div');
+		const edit = document.createElement('button');
+		const deleteButton = document.createElement('button');
