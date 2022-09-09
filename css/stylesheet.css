@@ -25,5 +25,17 @@ section {
 }
 
 #introduction input, #welcome input {
-    
+    color:#511845;
+    font-size: 2rem;
+    margin-left: 1rem;
+    flex: 1 1 0%;
+    min-width: 0;
+    font-weight: bolder;
+}
+
+h3 {
+    color:#511845;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
 }
