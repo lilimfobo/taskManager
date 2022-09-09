@@ -10,6 +10,16 @@ body {
     color: #511845;
 }
 
+header {
+    color: #900C3F;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+    text-align: center;
+}
+
 section {
     margin-top: 2.5rem;
 	margin-bottom: 2.5rem;
