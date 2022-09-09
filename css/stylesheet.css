@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family:'Courier New', Courier, monospace
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -11,18 +11,19 @@ body {
 }
 
 header {
-    color: #900C3F;
+    background-color: #553C8B;
+    color: #FFE6E6;
     font-size: 1.5rem;
-    margin-top: 1rem;
-	margin-bottom: 1rem;
+    padding-top: 1rem;
+	padding-bottom: 1rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
     text-align: center;
 }
 
 section {
-    margin-top: 2.5rem;
-	margin-bottom: 2.5rem;
+    margin-top: 2rem;
+	margin-bottom: 2rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
