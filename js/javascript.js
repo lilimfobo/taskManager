@@ -30,3 +30,15 @@ window.addEventListener('load', () => {
 		tasks.push(task);
 
 		localStorage.setItem('tasks', JSON.stringify(tasks));
+
+        e.target.reset();
+
+		DisplayTaskss()
+	})
+
+	DisplayTaskss()
+})
+
+function DisplayTasks () {
+	const taskList = document.querySelector('#taskList');
+	taskList.innerHTML = "";
