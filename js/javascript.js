@@ -1,13 +1,13 @@
 window.addEventListener('load', () => {
 	tasks = JSON.parse(localStorage.getItem('tasks')) || [];
-	const enterName = document.querySelector('#yourName');
-	const newForm = document.querySelector('#newTaskForm');
+	const yourName = document.querySelector('#yourName');
+	const newTaskForm = document.querySelector('#newTaskForm');
 
 	const username = localStorage.getItem('username') || '';
 
 	yourName.value = username;
 
-	enterName.addEventListener('change', (e) => {
+	yourName.addEventListener('change', (e) => {
 		localStorage.setItem('myName', e.target.value);
 	})
 
@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
 		localStorage.setItem('myName', e.target.value);
 	})
 
-	newForm.addEventListener('submit', e => {
+	newTaskForm.addEventListener('submit', e => {
 		e.preventDefault();
 
         const task = {
