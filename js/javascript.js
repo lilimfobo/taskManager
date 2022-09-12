@@ -67,3 +67,7 @@ function DisplayTasks () {
 		actions.classList.add('actions');
 		edit.classList.add('edit');
 		deleteButton.classList.add('delete');
+
+		content.innerHTML = `<input type="text" value="${task.content}" readonly>`;
+		edit.innerHTML = 'Edit';
+		deleteButton.innerHTML = 'Delete';
