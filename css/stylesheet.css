@@ -185,3 +185,12 @@ input:checked ~ .bubble::after {
 	margin-right: 1rem;
 	cursor: pointer;
 }
+
+.taskItem .taskContent {
+	flex: 1 1 0%;
+}
+
+.taskItem .taskContent input {
+	color: #511845;
+	font-size: 1.25rem;
+}
