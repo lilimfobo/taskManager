@@ -221,3 +221,8 @@ input:checked ~ .bubble::after {
 .taskItem .actions .delete {
 	background-color: #FF5733;
 }
+
+.taskItem.done .taskContent input {
+	text-decoration: line-through;
+	color: #CCA2E1;
+}
