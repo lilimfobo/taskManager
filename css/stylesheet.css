@@ -58,7 +58,7 @@ h4 {
     margin-bottom: 1rem;
 }
 
-#createTask input[type="text"] {
+.createTask input[type="text"] {
     display: block;
     width: 100%;
     font-size: 1.125rem;
@@ -70,14 +70,14 @@ h4 {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-#createTask #options {
+.createTask .options {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
-#createTask #options label {
+.createTask .options label {
     background-color: #FFF0F8;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     display: flex;
