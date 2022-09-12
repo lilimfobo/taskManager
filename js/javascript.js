@@ -71,3 +71,11 @@ function DisplayTasks () {
 		content.innerHTML = `<input type="text" value="${task.content}" readonly>`;
 		edit.innerHTML = 'Edit';
 		deleteButton.innerHTML = 'Delete';
+
+		label.appendChild(input);
+		label.appendChild(span);
+		actions.appendChild(edit);
+		actions.appendChild(deleteButton);
+		todoItem.appendChild(label);
+		todoItem.appendChild(content);
+		todoItem.appendChild(actions);
