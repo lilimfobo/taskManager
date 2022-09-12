@@ -80,4 +80,22 @@ function DisplayTasks () {
 		taskItem.appendChild(content);
 		taskItem.appendChild(actions);
 
+		taskList.appendChild(todoItem);
+
+		if (task.done) {
+			taskItem.classList.add('done');
+		}
 		
+		input.addEventListener('change', (e) => {
+			task.done = e.target.checked;
+			localStorage.setItem('tasks', JSON.stringify(taskss));
+
+			if (task.done) {
+				taskItem.classList.add('done');
+			} else {
+				taskItem.classList.remove('done');
+			}
+
+			DisplayTasks()
+
+		})
