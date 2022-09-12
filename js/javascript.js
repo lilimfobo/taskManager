@@ -3,9 +3,9 @@ window.addEventListener('load', () => {
 	const enterName = document.querySelector('#yourName');
 	const newForm = document.querySelector('#newTaskForm');
 
-	const myName = localStorage.getItem('myName') || '';
+	const username = localStorage.getItem('username') || '';
 
-	enterName.value = myName;
+	yourName.value = username;
 
 	enterName.addEventListener('change', (e) => {
 		localStorage.setItem('myName', e.target.value);
