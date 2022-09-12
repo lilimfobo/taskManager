@@ -194,3 +194,17 @@ input:checked ~ .bubble::after {
 	color: #511845;
 	font-size: 1.25rem;
 }
+
+.taskItem .actions {
+	display: flex;
+	align-items: center;
+}
+
+.taskItem .actions button {
+	display: block;
+	padding: 0.5rem;
+	border-radius: 0.25rem;
+	color: #FFE6E6;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
