@@ -76,6 +76,8 @@ function DisplayTasks () {
 		label.appendChild(span);
 		actions.appendChild(edit);
 		actions.appendChild(deleteButton);
-		todoItem.appendChild(label);
-		todoItem.appendChild(content);
-		todoItem.appendChild(actions);
+		taskItem.appendChild(label);
+		taskItem.appendChild(content);
+		taskItem.appendChild(actions);
+
+		
