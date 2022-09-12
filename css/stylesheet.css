@@ -156,12 +156,11 @@ input:checked ~ .bubble::after {
 	font-weight: bolder;
 	text-transform: uppercase;
 	background-color: #A685E2;
-	box-shadow: 0px 0px 6px rgba(208, 58, 238, 0.8);
 	border-radius: 0.5rem;
 	cursor: pointer;
 	transition: 0.3s ease-out;
 }
 
 #createTask input[type="submit"]:hover {
-	opacity: 0.75;
+	opacity: 0.5;
 }
