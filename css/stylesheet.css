@@ -35,7 +35,7 @@ section {
     font-weight: bolder;
 }
 
-.introduction input, .welcome input {
+.introduction .welcome input {
     color:#511845;
     font-size: 2rem;
     margin-left: 1rem;
