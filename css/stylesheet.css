@@ -208,3 +208,16 @@ input:checked ~ .bubble::after {
 	cursor: pointer;
 	transition: 0.3s ease-in-out;
 }
+
+.taskItem .actions button:hover {
+	opacity: 0.8;
+}
+
+.taskItem .actions .edit {
+	margin-right: 0.5rem;
+	background-color: #D15A7C;
+}
+
+.taskItem .actions .delete {
+	background-color: #FF5733;
+}
