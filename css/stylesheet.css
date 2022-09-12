@@ -157,10 +157,25 @@ input:checked ~ .bubble::after {
 	text-transform: uppercase;
 	background-color: #A685E2;
 	border-radius: 0.5rem;
+	border-color:#A685E2;
 	cursor: pointer;
 	transition: 0.3s ease-out;
 }
 
 #createTask input[type="submit"]:hover {
 	opacity: 0.5;
+}
+
+#taskList, #list {
+	margin: 1rem 0;
+}
+
+#list, #taskItem {
+	display: flex;
+	align-items: center;
+	background-color: #FFF;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	box-shadow:  0 1px 3px rgba(0, 0, 0, 0.1);
+	margin-bottom: 1rem;
 }
