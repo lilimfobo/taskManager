@@ -147,7 +147,7 @@ input:checked ~ .bubble::after {
 	margin-top: 1rem;
 }
 
-#createTask input[type="submit"] {
+.createTask input[type="submit"] {
 	display: block;
 	width: 100%;
 	font-size: 1.25rem;
@@ -162,7 +162,7 @@ input:checked ~ .bubble::after {
 	transition: 0.3s ease-out;
 }
 
-#createTask input[type="submit"]:hover {
+.createTask input[type="submit"]:hover {
 	opacity: 0.5;
 }
 
