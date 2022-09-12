@@ -1,7 +1,7 @@
 window.addEventListener('load', () => {
 	tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 	const enterName = document.querySelector('#yourName');
-	const newForm = document.querySelector('#createTask');
+	const newForm = document.querySelector('#newTaskForm');
 
 	const myName = localStorage.getItem('myName') || '';
 
