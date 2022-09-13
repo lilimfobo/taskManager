@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
 
         const task = {
 			content: e.target.elements.content.value,
-			category: e.target.elements.category.value,
+			category: e.target.elements.category,
 			done: false,
 			createdAt: new Date().getTime()
 		}
@@ -54,8 +54,7 @@ function DisplayTasks () {
         input.type = 'checkbox';
 		input.checked = task.done;
 		span.classList.add('bubble');
-
-		if (task.category == 'personal') {
+        if (task.category == 'personal') {
 			span.classList.add('personal');
 		} else {
 			span.classList.add('work');
@@ -106,7 +105,7 @@ function DisplayTasks () {
 				input.setAttribute('readonly', true);
 				task.content = e.target.value;
 				localStorage.setItem('taskss', JSON.stringify(taskss));
-				DisplayTaskss()
+				DisplayTasks()
 
 			})
 		})
