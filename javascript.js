@@ -28,7 +28,7 @@ window.addEventListener('load', () => {
 
         e.target.reset();
 
-		DisplayTaskss()
+		DisplayTasks()
 	})
 
 	DisplayTaskss()
