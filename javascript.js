@@ -55,7 +55,7 @@ function DisplayTasks () {
 		input.checked = task.done;
 		span.classList.add('bubble');
 
-		if (todo.category == 'personal') {
+		if (task.category == 'personal') {
 			span.classList.add('personal');
 		} else {
 			span.classList.add('work');
