@@ -31,12 +31,13 @@ window.addEventListener('load', () => {
 		DisplayTasks()
 	})
 
-	DisplayTaskss()
+	DisplayTasks();
+
 })
 
 function DisplayTasks () {
-	const taskList = document.querySelector('#taskList');
-	taskList.innerHTML = "";
+	const list = document.querySelector('#list');
+	list.innerHTML = "";
 
     tasks.forEach(task => {
 		const taskItem = document.createElement('div');
@@ -75,7 +76,7 @@ function DisplayTasks () {
 		taskItem.appendChild(content);
 		taskItem.appendChild(actions);
 
-		taskList.appendChild(todoItem);
+		list.appendChild(todoItem);
 
 		if (task.done) {
 			taskItem.classList.add('done');
