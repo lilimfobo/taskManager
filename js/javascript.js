@@ -8,13 +8,13 @@ window.addEventListener('load', () => {
 	yourName.value = username;
 
 	yourName.addEventListener('change', (e) => {
-		localStorage.setItem('myName', e.target.value);
+		localStorage.setItem('username', e.target.value);
 	})
 
-    nameInput.value = myName;
+    yourName.value = username;
 
-	nameInput.addEventListener('change', (e) => {
-		localStorage.setItem('myName', e.target.value);
+	yourName.addEventListener('change', (e) => {
+		localStorage.setItem('username', e.target.value);
 	})
 
 	newTaskForm.addEventListener('submit', e => {
