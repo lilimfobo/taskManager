@@ -60,8 +60,8 @@ function DisplayTasks () {
 		} else {
 			span.classList.add('work');
 		}
-		
-		content.classList.add('content');
+
+		content.classList.add('taskContent');
 		actions.classList.add('actions');
 		edit.classList.add('edit');
 		deleteButton.classList.add('delete');
@@ -78,7 +78,7 @@ function DisplayTasks () {
 		taskItem.appendChild(content);
 		taskItem.appendChild(actions);
 
-		list.appendChild(todoItem);
+		list.appendChild(taskItem);
 
 		if (task.done) {
 			taskItem.classList.add('done');
