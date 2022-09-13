@@ -54,12 +54,14 @@ function DisplayTasks () {
         input.type = 'checkbox';
 		input.checked = task.done;
 		span.classList.add('bubble');
+
 		if (todo.category == 'personal') {
 			span.classList.add('personal');
 		} else {
 			span.classList.add('work');
 		}
-		content.classList.add('task-content');
+		
+		content.classList.add('content');
 		actions.classList.add('actions');
 		edit.classList.add('edit');
 		deleteButton.classList.add('delete');
@@ -84,7 +86,7 @@ function DisplayTasks () {
 		
 		input.addEventListener('change', (e) => {
 			task.done = e.target.checked;
-			localStorage.setItem('tasks', JSON.stringify(taskss));
+			localStorage.setItem('tasks', JSON.stringify(tasks));
 
 			if (task.done) {
 				taskItem.classList.add('done');
