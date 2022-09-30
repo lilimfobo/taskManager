@@ -15,12 +15,13 @@ header {
     background-color: #C490E4;
     color: #FFE6E6;
     font-size: 1.3rem;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 #notepad {
-  width: 10vw;
-  height: 9vh;
+  width: 12vw;
+  height: 8vh;
+  margin-left: auto;
 }
 
 section {
