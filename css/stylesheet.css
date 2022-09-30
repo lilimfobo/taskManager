@@ -19,6 +19,10 @@ header {
     text-align: center;
 }
 
+#notepad {
+	
+}
+
 section {
     margin-top: 2rem;
 	margin-bottom: 2rem;
@@ -130,8 +134,15 @@ input[type="checkbox"] {
 }
 
 .bubble.personal::after {
+	content: '';
+	display: block;
+	opacity: 0;
+	width: 0px;
+	height: 0px;
 	background-color: #36846B;
 	box-shadow: 0px 0px 6px rgba(58, 238, 223, 0.8);
+	border-radius: 999px;
+	transition: 0.3s ease-in-out;
 }
 
 input:checked ~ .bubble::after {
