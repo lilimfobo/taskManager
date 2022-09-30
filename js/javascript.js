@@ -41,7 +41,7 @@ function DisplayTasks () {
 
     tasks.forEach(task => {
 		const taskItem = document.createElement('div');
-		taskItem.classList.add('taskitem');
+		taskItem.classList.add('taskItem');
 
 		const label = document.createElement('label');
 		const input = document.createElement('input');
@@ -104,7 +104,7 @@ function DisplayTasks () {
 			input.addEventListener('blur', (e) => {
 				input.setAttribute('readonly', true);
 				task.content = e.target.value;
-				localStorage.setItem('taskss', JSON.stringify(taskss));
+				localStorage.setItem('tasks', JSON.stringify(tasks));
 				DisplayTasks()
 
 			})
