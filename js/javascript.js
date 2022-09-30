@@ -41,7 +41,7 @@ function DisplayTasks () {
 
     tasks.forEach(task => {
 		const taskItem = document.createElement('div');
-		taskItem.classList.add('taskItem');
+		taskItem.classList.add('taskitem');
 
 		const label = document.createElement('label');
 		const input = document.createElement('input');
@@ -82,7 +82,7 @@ function DisplayTasks () {
 		if (task.done) {
 			taskItem.classList.add('done');
 		}
-		
+
 		input.addEventListener('change', (e) => {
 			task.done = e.target.checked;
 			localStorage.setItem('tasks', JSON.stringify(tasks));
@@ -104,7 +104,7 @@ function DisplayTasks () {
 			input.addEventListener('blur', (e) => {
 				input.setAttribute('readonly', true);
 				task.content = e.target.value;
-				localStorage.setItem('tasks', JSON.stringify(tasks));
+				localStorage.setItem('taskss', JSON.stringify(taskss));
 				DisplayTasks()
 
 			})
