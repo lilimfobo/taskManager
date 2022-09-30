@@ -104,7 +104,7 @@ function DisplayTasks () {
 			input.addEventListener('blur', (e) => {
 				input.setAttribute('readonly', true);
 				task.content = e.target.value;
-				localStorage.setItem('taskss', JSON.stringify(taskss));
+				localStorage.setItem('tasks', JSON.stringify(tasks));
 				DisplayTasks()
 
 			})
