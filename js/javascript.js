@@ -41,7 +41,7 @@ function DisplayTasks () {
 
     tasks.forEach(task => {
 		const taskItem = document.createElement('div');
-		taskItem.classList.add('taskitem');
+		taskItem.classList.add('taskItem');
 
 		const label = document.createElement('label');
 		const input = document.createElement('input');
