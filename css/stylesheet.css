@@ -24,6 +24,13 @@ header {
   margin-left: auto;
 }
 
+#work, #personal {
+	width: 8vw;
+	height: 5vh;
+	margin: 1rem;
+}
+
+
 section {
     margin-top: 2rem;
 	margin-bottom: 2rem;
